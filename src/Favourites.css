@@ -1,0 +1,25 @@
+/* Favorites.css */
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .movie-list {
+    justify-content: center;
+  }
+
+  @media (max-width: 480px) {
+    .movie-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
